@@ -1,0 +1,38 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 16px 32px;
+    background-color: #252525;
+    color: white;
+    border-radius: 16px;
+    
+
+}
+h1{
+    margin: 0 0 24px 0;
+    line-height: 130%;
+    font-size: 56px;
+}
+p{
+    margin: 0 0 30px 0;
+
+}
+#flex{
+    display: inline;
+    gap: 30px;
+    width: 100%;
+    margin: 0;
+}
+
+ .content {
+    width: 430px;
+    flex-shrink: 0;
+}
+
+img {
+    flex-grow: 1;
+    
+} 
