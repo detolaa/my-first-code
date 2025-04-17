@@ -120,8 +120,10 @@ nav ul{
     color: #4caf4f75;
 }
 
-#Sec{
+.Sec{
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .clients{
     font-size: 36px;
