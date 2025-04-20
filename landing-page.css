@@ -1,0 +1,368 @@
+.covered-by-your-grace-regular {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+  
+*{
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 75px;
+  box-sizing: border-box;
+}
+.navv{
+  border: 1px solid white;
+}
+.Sub-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    list-style: none;
+    gap: 8px;
+    color: #2E2F35;
+    line-height: 18px;
+    font-weight: 500;
+}
+.Sub-nav2{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.nav-link{
+  color: #2E2F35;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 14px 22px;
+  border: 2px solid #2E2F35;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 #2E2F35;
+  align-self: center;
+  justify-content: center;
+
+}
+.nav-link2{
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #FF6D2C;
+  border: 2px solid #2E2F35;
+  padding: 14px 22px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 #2E2F35;
+  align-self: center;
+  justify-content: center;
+}
+.Top-nav-link{
+  display: flex;
+  gap: 16px;
+}
+.firstH1{
+  font-size: 82px;
+  line-height: 96px;
+  font-weight: 700;
+  color: #2E2F35;
+  padding-right: 0;
+  max-width: 100%;
+  word-break: keep-all;
+  margin-bottom: 25px;
+  
+}
+.firstP{
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #58595D;
+}
+.trdLink{
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+  background-color: #FF6D2C;
+  border: 2px solid #2E2F35;
+  box-shadow: 3px 3px 0 #2E2F35;
+  color: white;
+  padding: 22px 65px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.stars{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.rating{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+.link-rating{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 48px;
+}
+.hero{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 75px;
+  margin-right: -50px;
+  box-sizing: border-box;
+  background-color: #E0F8F2;
+  height: 100vh;
+  flex-wrap: wrap;
+  
+}
+.hero img{
+  transform: translateX(80px);
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  flex: 1 1 500px;
+}
+.no-wrap{
+  white-space: nowrap;
+}
+.secondhead{
+  font-size: 63px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 106px;
+  padding-bottom: 60px;
+}
+.trustedby{
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+ justify-content: center;
+ margin-bottom: 96px;
+}
+.para1{
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #58595D;
+  text-align: justify;
+  text-align-last: center;
+  width: 230px;
+}
+.firsth3{
+  font-size: 63px;
+  line-height: 75px;
+  letter-spacing: -2px;
+  color: #2E2F35;
+  margin-bottom: 2px;
+  width: 230px;
+  text-align: center;
+}
+.thirdali{
+  display: flex;
+  flex-direction: row;
+  gap: 170px;
+  justify-content: center;
+}
+#thirdsection{
+  width: 1440px;
+  height: 643px;
+  background-color: #F3FAFA;
+}
+.forthali{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -4px;
+  color: #2E2F35;
+  margin-bottom: 0;
+}
+.logo-brandname{
+  width: 480px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 277px;
+  align-items: center;
+  justify-content: center;
+}
+.boxpara{
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #58595D;
+}
+.boxy{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 34px;
+  border: 2px solid #D1C7BE;
+  width: 550px;
+  height: 220px;
+  border-radius: 15px;
+}
+.subforthali{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-left: 75px;
+  padding: 64px 773px 72px 0;
+}
+.subforthali2{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-right: 75px;
+  align-items: flex-end;
+  justify-content: left;
+  padding: 0 0 15px 0644.44px;
+}
+.forte{
+  width: 100%;
+  height: 2700px;
+  background-color: #FDF3EA;
+  border: 1px solid #FDF3EA;
+}
+.fifthsection{
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: -2px;
+  text-align: center;
+
+}
+.fifthheading{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #2E2F35;
+  margin-bottom: 0;
+  margin-top: 48px;
+  text-align: center;
+
+}
+.fifthpara{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #58595D;
+  margin-top: 8px;
+  text-align-last: center;
+}
+.firstdiv{
+  background-color: #FDF3EA;
+  padding: 40px;
+  width: 410px;
+  height: 506.53px;
+  border-radius: 13px;
+}
+.sixthsub{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+
+}
+.sixthsub2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.seventhhead{
+  font-size: 60px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  color: #2E2F35;
+  text-align: center;
+}
+#seventh{
+  background-color: #E3F8F8;
+  width: 100%;
+  height: 899px;
+  padding-top: 106px;
+  padding-left: 75px;
+  padding-right: 75px;
+
+
+}
+.subseven{
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -o.5px;
+  color: rgba(46, 47, 53,0.4);
+  font-weight: 700;
+}
+.subseven2{
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  color: rgba(0, 147, 135, 0.4);
+  
+  text-align: right;
+}
+.mainseven{
+  display: flex;
+  flex-direction: row;
+  gap:40px;
+  width: 550px;
+  align-items: center;
+
+  height: 54px;
+  padding-left: 20px;
+  
+  
+}
+.segmen{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 550px;
+  padding-bottom: 192px;
+  
+
+}
+#footer-fit{
+  width: 100%;
+  height: 593px;
+  background-color: #fff;
+  padding: 96px 75px 0 75px;
+}
+.pin{
+  display: inline-flex; 
+  align-items: center; 
+  font-size: 16px; 
+  line-height: 30px; 
+  font-weight: 500; 
+  color: #2E2F35;
+  gap: 8px;
+}
